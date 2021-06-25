@@ -20,5 +20,6 @@ for i in all_links:
             time.sleep(1)
             browser.back()
     except:
-        browser.back()
+        print(" ")
+        # browser.back()
         # browser.switch_to_window(browser.window_handles[-1])
