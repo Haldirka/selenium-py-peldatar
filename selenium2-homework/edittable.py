@@ -31,7 +31,7 @@ if row_count2 > row_count:
 update_field = browser.find_elements_by_xpath('//tbody//tr//td//input')
 update_field[0].clear()
 update_field[0].send_keys("football2")
-if update_field[0].text == update_field[0].get_attribute("value"):
+if update_field[0].sample_text == update_field[0].get_attribute("value"):
     print("sikeres DOM struktúra frissítés")
 else:
     print("sikertelen DOM struktúra frissítés")

@@ -9,7 +9,7 @@ try:
 
     all_todo = browser.find_elements_by_xpath('//ul//li')
     for i in all_todo:
-        print(i.text)
+        print(i.sample_text)
 except:
     print("hiba")
 finally:
